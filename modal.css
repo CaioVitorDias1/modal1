@@ -14,7 +14,7 @@
     top: 0;
     left: 0;
     background-color: #00000050;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     z-index: 999;
@@ -42,4 +42,8 @@
     color: #fff;
     font-size: 20px;
     cursor: pointer;
+}
+
+.janela-modal.abrir {
+    display: flex;
 }
